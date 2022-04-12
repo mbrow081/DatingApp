@@ -54,7 +54,7 @@ import { DateInputComponent } from './_forms/date-input/date-input.component';
     ReactiveFormsModule,
     FormsModule,
     SharedModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
